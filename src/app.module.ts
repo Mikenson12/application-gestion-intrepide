@@ -6,9 +6,6 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersModule } from './users/users.module';
 import { ProjectsModule } from './projects/projects.module';
 import { TasksModule } from './tasks/tasks.module';
-import { Users } from './users/users.entity/users.entity';
-import { Projects } from './projects/projects.entity/projects.entity';
-import { Tasks } from './tasks/tasks.entity/tasks.entity';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
